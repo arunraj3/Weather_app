@@ -5,16 +5,57 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:#222;
+    font-size:120%;
     font-family: 'Open Sans', sans-serif;
     margin : 0;
+    background-image:url("./pexels-ákos-szabó-440731.jpg")
 }
 
 .card{
-    background:#eaeaea;
+    background:rgb(109, 169, 230);
     padding:2em;
     max-width:420px;
     width: 100%;
     border-radius:30px;
     margin : 0;
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+input.search-bar{
+    padding : 0.4em 1em;
+    border:none;
+    outline:none;
+    border-radius: 24px;
+    font : inherit;
+    font-size:105%;
+    width:calc(100% - 100px)
+}
+.search button{
+    margin : 2px;
+    border-radius:50%;
+    outline:none;
+    padding : 0;
+    width :44px;
+    height :44px;
+    border:none;
+}
+
+.weather{
+    color:white;
+}
+
+.search button:hover{
+    background-color:rgb(13, 92, 135);
+    color:white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+h1 .temp{
+    margin:0;
 }
