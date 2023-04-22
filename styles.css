@@ -56,6 +56,16 @@ input.search-bar{
     transition: 0.2s ease-in-out;
     
 }
+.flexit{
+    display:flex;
+    align-items:center;
+
+}
+.description{
+    text-transform: capitalize;
+    margin : 8px;
+}
 h1 .temp{
     margin:0;
+    margin-bottom : 0.5em;
 }
